@@ -1,0 +1,15 @@
+.content {
+    margin: 0 auto;
+    width: 1200px;
+}
+.grid-item {
+    float: left;
+    width: 310px;
+    height: 310px;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-item--height2 { height: 698px; }

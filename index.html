@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="grid js-masonry"
+            data-masonry='{ 
+                "itemSelector": ".grid-item", 
+                "columnWidth": 20,
+                "horizontalOrder": true
+            }' 
+            >
+            <div class="grid-item">1</div>
+            <div class="grid-item grid-item--height2">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item grid-item--height2">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item grid-item--height2">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item grid-item--height2">8</div>
+            <div class="grid-item">9</div>
+            <div class="grid-item grid-item--height2">10</div>
+            <div class="grid-item">11</div>
+            <div class="grid-item grid-item--height2">12</div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+</body>
+</html>
